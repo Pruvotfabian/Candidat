@@ -1,0 +1,15 @@
+Travail à effectuer :
+HTML / CSS 
+* Intégrer la page pour que cela ressemble à la maquette "resultat.png" et "resultatMobile.png".
+
+
+Javascript / Jquery :
+* Par défault, masquer le bouton "Estimer votre tarif" et lors de la selection d'une valeur dans le champs "Vous recherchez une assurance", afficher le bouton
+* Lors du clic sur le bouton "Estimer votre tarif", rediriger l'internaute la page "https://assurance.meilleurtaux.com/"
+
+
+
+Liste des couleurs:
+* Orange: #ff9600
+* gris clair : #f6f6f6 (Fond Guide Assurance Auto)
+* gris foncé : #e4e4e4 (Bordure Estimateur tarif)

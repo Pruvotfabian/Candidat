@@ -1,0 +1,116 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    display: none;
+    width: 75%;
+    height: auto;
+}
+.button.active{
+    display: block;
+}
+.barre{
+    height: 100%;
+    width:100%;
+
+}
+.block{
+    background-color: #f6f6f6;
+}
+.logoblock{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+    padding: 3%;
+}
+.barre{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+}
+.contentleft{
+    background-color: white;
+    height:100%;
+    width: 55%;
+    left: 10%;
+}
+.color{
+    color: #ff9600;
+}
+.pad{
+    padding: 2%;
+}
+.pad2{
+    padding: 5%;
+}
+.flexrow{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.textebold{
+    font-weight: bold;
+}
+.blockright{
+    width: 30%;
+    height: 100%;
+}
+.boite{
+    background-color: #e4e4e4;
+    margin: 5%;
+}
+.boitedetail{
+    background-color: #e4e4e4;
+    margin: 5%;
+}
+
+.selectors{
+    height: 50px;
+    width: 75%;
+    font-size: 1.4em;
+}
+.blockimg{
+    margin: 2%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 160px;
+}
+.center{
+    text-align: center;
+}
+.Ulpuce{
+    list-style: none;
+}
+.puce::before {
+    content: "•"; 
+    color: red;
+    margin: 5%;
+}
+
+@media screen and
+(max-width: 720px){ 
+    .contentleft{
+        height: auto;
+        width: auto;
+    }
+    .flexrow{
+        display: block;
+    }
+    .blockright{
+        width: 100%;
+    }
+    .blockimg{
+        height: 300px;
+    }
+    .blockimg img{
+        width: 30%;
+    }
+}
