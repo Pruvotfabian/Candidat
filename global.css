@@ -6,6 +6,7 @@ a{
     width: 75%;
     height: 100px;
 }
+/* gestion boutton */
 #button{
     display: none;
 
@@ -15,15 +16,17 @@ a{
     margin: 5%;
     height: 50px;
 }
-
+/* barre noir */
 .barre{
-    height: 100%;
-    width:100%;
-
+    height: 20px;
+    width: 100%;
+    background-color: black;
 }
+/* block principale */
 .block{
     background-color: #f6f6f6;
 }
+/* logo */
 .logoblock{
     width:100%;
     display: flex;
@@ -34,11 +37,7 @@ a{
     width: 40%;
     padding: 3%;
 }
-.barre{
-    height: 20px;
-    width: 100%;
-    background-color: black;
-}
+/* contenue gauche */
 .contentleft{
     background-color: white;
     height:100%;
@@ -48,12 +47,14 @@ a{
 .color{
     color: #ff9600;
 }
+/* padding générale texte */
 .pad{
     padding: 2%;
 }
 .pad2{
     padding: 5%;
 }
+/* flex */
 .flexrow{
     display: flex;
     justify-content: center;
@@ -62,6 +63,7 @@ a{
 .textebold{
     font-weight: bold;
 }
+/* contenue droite */
 .blockright{
     width: 30%;
     height: 100%;
@@ -80,6 +82,7 @@ a{
     width: 75%;
     font-size: 1.4em;
 }
+/* block image texte boutton */
 .blockimg{
     margin: 2%;
     background-color: white;
@@ -92,6 +95,7 @@ a{
 .center{
     text-align: center;
 }
+/* puce */
 .Ulpuce{
     list-style: none;
 }
@@ -100,7 +104,7 @@ a{
     color: red;
     margin: 5%;
 }
-
+/* responsive */
 @media screen and
 (max-width: 720px){ 
     .contentleft{
